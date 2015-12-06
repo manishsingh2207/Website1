@@ -1,18 +1,25 @@
+
 .logo img{
   width: 60%;
   height: 60%;
-}
+  }
+
 .nav_1 li{
   display: inline;
   padding-right: 10px;
 }
+
 .nav_1 ul{
   float:right;
   margin-top: 37px;
 }
 .nav_1 a{
   text-decoration: none;
-  font-family: Rockwell;
+  font-family:  "Lora-Bold",Calibri,Arial,sans-serif;
+}
+.nav_1 a:hover{
+  text-decoration:underline;
+  font-family:  "Lora-Bold",Calibri,Arial,sans-serif;
 }
 
 .menu_wrapper{
@@ -20,15 +27,15 @@
   top:0px;
   width:100%;
   background-color: white;
+  z-index: 9999;
 }
 
 .about_wrapper{
   height: 77%;
-  margin-top:87px;;
-  background-image: url("/img/event.jpg");
+  margin-top: 88px;
+  background-image: url("/img/party.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-
 }
 
 .container p{
@@ -38,27 +45,36 @@
   font-size: 37px;
   font-weight: 100;
   line-height: 57px;
-  font-family: Rockwell;
+  font-family:  "Lora-Bold",Calibri,Arial,sans-serif;
   text-align: center;
   margin-top: 400px;
+  float: none;
+  overflow: auto;
+  z-index: -1;
 }
 
-.who_we_wre_wrapper{
-  background-color: #bfbfbf;
+.who_we_are_wrapper{
+  background-color: darkslategrey;
   margin-top: -20px;
+  background-image: url("/img/attendees1.jpg");
 }
 
+.inside_who_we_are_wrapper{
+  color: white;
+  height: 416px;
+  padding-bottom: 44px;
+}
 .browse_1{
-  font-family: Rockwell;
+  font-family:  "Lora-Bold",Calibri,Arial,sans-serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 100;
   line-height: 57px;
   margin-top: 20px;
   height: 16px;
 }
 .browse_2{
-  font-family: Rockwell;
+  font-family:  "Lora-Bold",Calibri,Arial,sans-serif;
   text-align: center;
   font-size: 24px;
   font-weight: 100;
@@ -68,6 +84,7 @@
 .ticket_1,.ticket_1_desc{
   text-align: center;
 }
+
 .ticket_2,.ticket_2_desc{
   text-align: center;
 }
@@ -75,6 +92,160 @@
   text-align: center;
 }
 
+.ticket_1 img:hover{
+  width: 115px;
+  height: 115px;
+}
+.ticket_2 img:hover{
+  width: 115px;
+  height: 115px;
+}
+.ticket_3 img:hover{
+  width: 115px;
+  height: 115px;
+}
+
+.ticket_1_desc{
+  font-family:  "Lora-Bold",Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 44px;
+  margin-top: 20px;
+}
+.ticket_2_desc{
+  font-family:  "Lora-Bold",Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 44px;
+  margin-top: 20px;
+}
+.ticket_3_desc{
+  font-family:  "Lora-Bold",Calibri,Arial,sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 44px;
+  margin-top: 20px;
+}
 .categories{
   margin-top: 25px;
+}
+.categories_wrapper:hover{
+  background-color: black;
+  opacity: 0.5;
+}
+.categories_wrapper{
+width: 943px;
+margin-left: 318px;
+}
+.whatshot{
+  color: white;
+  font-size: 37px;
+  font-weight: 100;
+  font-family:  "Lora-Bold",Calibri,Arial,sans-serif;
+  text-align: center;
+}
+.whatshot p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.whatshot_wrapper{
+  background-color: #3B6161;
+  background-image: url("/img/Syr-Background-Nightlife-11984416.jpg");
+    z-index: 1;
+}
+
+.events_1 .event1{
+  background-image:url("/img/arrehman.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 412px;
+}
+
+.events_1 .event1 p{
+    color: #fff;
+    font-family: "Lora-Bold",Calibri,Arial,sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 365px;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+}
+.events_1 .event2 h3{
+    color: #fff;
+    font-family: "Lora-Bold",Calibri,Arial,sans-serif;
+    font-size: 35px;
+    line-height: 30px;
+    margin-top: 41px;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    width:450px;
+}
+
+.events_1 .event2 p{
+    color: #fff;
+    font-family: "Lora-Bold",Calibri,Arial,sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 97px;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    width: 449px;
+}
+
+.events_2 .event1 h3{
+    color: #fff;
+    font-family: "Lora-Bold",Calibri,Arial,sans-serif;
+    font-size: 35px;
+    line-height: 30px;
+    margin-top: 41px;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    width:450px;
+}
+
+.events_2 .event1 p{
+    color: #fff;
+    font-family: "Lora-Bold",Calibri,Arial,sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 70px;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    width: 449px;
+}
+
+.events_2{
+      margin-top: 20px;
+}
+.events_2 .event2{
+  background-image:url("/img/norteast.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 412px;
+}
+.events_2 .event2 p{
+    color: #fff;
+    font-family: "Lora-Bold",Calibri,Arial,sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 365px;
+    padding: 20px;
+    position: absolute;
+    text-align: right;
+}
+
+.event3 img{
+  width: 98%;
+  height: 311px;
+  padding-left: 10px;
+  padding-right: 10px;
+  MARGIN-TOP: 20PX;
 }
