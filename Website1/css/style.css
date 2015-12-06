@@ -1,0 +1,80 @@
+.logo img{
+  width: 60%;
+  height: 60%;
+}
+.nav_1 li{
+  display: inline;
+  padding-right: 10px;
+}
+.nav_1 ul{
+  float:right;
+  margin-top: 37px;
+}
+.nav_1 a{
+  text-decoration: none;
+  font-family: Rockwell;
+}
+
+.menu_wrapper{
+  position:fixed;
+  top:0px;
+  width:100%;
+  background-color: white;
+}
+
+.about_wrapper{
+  height: 77%;
+  margin-top:87px;;
+  background-image: url("/img/event.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.container p{
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  font-size: 37px;
+  font-weight: 100;
+  line-height: 57px;
+  font-family: Rockwell;
+  text-align: center;
+  margin-top: 400px;
+}
+
+.who_we_wre_wrapper{
+  background-color: #bfbfbf;
+  margin-top: -20px;
+}
+
+.browse_1{
+  font-family: Rockwell;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 57px;
+  margin-top: 20px;
+  height: 16px;
+}
+.browse_2{
+  font-family: Rockwell;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 57px;
+  margin-top: 20px;
+}
+.ticket_1,.ticket_1_desc{
+  text-align: center;
+}
+.ticket_2,.ticket_2_desc{
+  text-align: center;
+}
+.ticket_3,.ticket_3_desc{
+  text-align: center;
+}
+
+.categories{
+  margin-top: 25px;
+}
